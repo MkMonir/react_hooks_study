@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.count {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.plus,
+.minus {
+  font-size: 30px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.showText {
+  display: flex;
+  gap: 20px;
+}
+
+.showText button {
+  background-color: gainsboro;
+  padding: 10px;
+  cursor: pointer;
+  color: black;
+  font-weight: 400;
+  font-size: 20px;
+  border-radius: 5px;
+}
