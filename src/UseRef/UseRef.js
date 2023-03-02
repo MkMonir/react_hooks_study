@@ -6,7 +6,13 @@ const UseRef = () => {
   return (
     <div style={{ display: "flex", gap: "5px", alignItems: "center" }}>
       <input className="input" placeholder="Type something" ref={inputRef} />
-      <button className="btn" onClick={() => inputRef.current.focus()}>
+      <button
+        className="btn"
+        onClick={() => {
+          console.log(inputRef.current.value);
+          inputRef.current.focus();
+        }}
+      >
         Click
       </button>
     </div>

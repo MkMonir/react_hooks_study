@@ -32,12 +32,20 @@ body {
   gap: 20px;
 }
 
-.showText button {
+.btn {
   background-color: gainsboro;
   padding: 10px;
   cursor: pointer;
   color: black;
   font-weight: 400;
   border-radius: 5px;
-  font-size: 20px;
+  font-size: 16px;
+}
+
+.input {
+  width: 300px;
+  border: 1px solid #999;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
 }
