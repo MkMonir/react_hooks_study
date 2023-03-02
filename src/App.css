@@ -22,7 +22,7 @@ body {
 
 .plus,
 .minus {
-  font-size: 30px;
+  font-size: 40px;
   background-color: transparent;
   cursor: pointer;
 }
@@ -38,6 +38,6 @@ body {
   cursor: pointer;
   color: black;
   font-weight: 400;
-  font-size: 20px;
   border-radius: 5px;
+  font-size: 20px;
 }
